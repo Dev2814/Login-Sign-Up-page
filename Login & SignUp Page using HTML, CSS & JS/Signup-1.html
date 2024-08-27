@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sign-Up</title>
+   <link rel="Stylesheet" href="Signup-1.css">
+</head>
+<body>
+   <div id="content" class="Login">
+       <header>
+           <img src="LOGO.png" class="logo">
+       </header>
+     <h2>Sign Up </h2>
+     <button onclick="Google()"><img src="google.png" class="google">Sign up with Google</button>
+     <button onclick="Apple()"><img src="apple.png" class="apple">Sign up with apple</button>
+     <span class="span">---------------or---------------</span> 
+     <form action="">
+       <input class="inp" type="text" placeholder="First Name" id="firstname">
+       <input class="inp" type="text" placeholder="Last Name" id="lastname">
+       <button onclick="Next(event)">Next</button>
+     </form>
+     <p> Already have an account? <a onclick="DelayLogin()">Login</a></p>
+  </div>  
+  <div id="loader" class="loader">
+   <div class="circle">
+       <div class="dot"></div>
+       <div class="outline"></div>
+   </div>
+   <div class="circle">
+       <div class="dot"></div>
+       <div class="outline"></div>
+   </div>
+   <div class="circle">
+       <div class="dot"></div>
+       <div class="outline"></div>
+   </div>
+   <div class="circle">
+       <div class="dot"></div>
+       <div class="outline"></div>
+   </div>
+</div>
+  <script src="Signup-1.js"></script>
+</body>
+</html>

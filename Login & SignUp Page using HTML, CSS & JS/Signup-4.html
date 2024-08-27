@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="Stylesheet" href="Signup-4.css">
+ </head>
+ <body>
+    <div id="content" class="Login">
+        <header>
+            <img src="LOGO.png" class="logo">
+        </header>
+      <h2>Sign Up</h2>
+      <form action="">
+        <div class="gender-selection"> 
+            <Label class="gender-label">Gender:</Label>
+            <label for="male">
+                <input class="radio" type="radio" id="male" name="gender" value="male">
+                Male
+            </label>
+            <label for="female">
+                <input class="radio" type="radio" id="female" name="gender" value="female">
+                Female
+            </label>
+        </br><br>
+            <div class="terms">
+                <label>
+                    <input type="checkbox" name="terms" class="checkbox" /required>
+                    I agree to the <a onclick="Delayterms(event)">Terms and Conditions</a>
+                </label>
+            </div>
+        </div>    
+        <button class="btn" onclick="Submit(event)"> Submit</button>
+      </form>
+      <p> Already have an account? <a onclick="DelayLogin()">Login</a></p>
+   </div>  
+   <div id="loader" class="loader">
+    <div class="circle">
+        <div class="dot"></div>
+        <div class="outline"></div>
+    </div>
+    <div class="circle">
+        <div class="dot"></div>
+        <div class="outline"></div>
+    </div>
+    <div class="circle">
+        <div class="dot"></div>
+        <div class="outline"></div>
+    </div>
+    <div class="circle">
+        <div class="dot"></div>
+        <div class="outline"></div>
+    </div>
+ </div>
+   <script src="Signup-4.js"></script>
+ </body>
+ </html>

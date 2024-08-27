@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Upl</title>
+    <link rel="Stylesheet" href="Signup-3.css">
+ </head>
+ <body>
+    <div id="content" class="Login">
+        <header>
+            <img src="LOGO.png" class="logo">
+        </header>
+      <h2>Sign Up</h2>
+      <form action="">
+        <input class="inp" type="text" placeholder="Pan-card number">
+        <input class="inp" type="text" placeholder="Aadahar-number">
+        <div class="mobile-input">
+            <span>+91</span>
+            <input class="inp" type="text" name="mobile_number" placeholder="E.g. 9876543210">
+        </div>
+        <div class="btn">
+            <button onclick="Back(event)">Back</button>
+            <button onclick="Next(event)">Next</button>
+       </div>
+      </form>
+      <p> Already have an account? <a onclick="DelayLogin()">Login</a></p>
+   </div>
+   <div id="loader" class="loader">
+    <div class="circle">
+        <div class="dot"></div>
+        <div class="outline"></div>
+    </div>
+    <div class="circle">
+        <div class="dot"></div>
+        <div class="outline"></div>
+    </div>
+    <div class="circle">
+        <div class="dot"></div>
+        <div class="outline"></div>
+    </div>
+    <div class="circle">
+        <div class="dot"></div>
+        <div class="outline"></div>
+    </div>
+ </div>
+   <script src="Signup-3.js"></script>  
+ </body>
+ </html>

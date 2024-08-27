@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="Login.css">
+ </head>
+ <body>
+    <div id="content" class="Login">
+      <header>
+         <img src="LOGO.png" class="logo">
+      </header>
+      <h2>Sign In</h2>
+      <button onclick="Google()"><img src="google.png" class="google">Sign in with Google</button>
+      <button onclick="Apple()"><img src="apple.png" class="apple">Sign in with apple</button>
+      <span class="span">---------------or---------------</span> 
+      <form action="">
+         <input type="text" placeholder="Email or mobile No.">
+         <button class="btn" onclick="Delayotp(event)"> GET OTP </button>
+      </form>
+      <button class="btn" onclick="Delayforget()"> Forget Paasword? </button>
+      <p> Don't have an account? <a onclick="DelaySignup()">Sign up</a></p>
+   </div>  
+   <div id="loader" class="loader">
+      <div class="circle">
+          <div class="dot"></div>
+          <div class="outline"></div>
+      </div>
+      <div class="circle">
+          <div class="dot"></div>
+          <div class="outline"></div>
+      </div>
+      <div class="circle">
+          <div class="dot"></div>
+          <div class="outline"></div>
+      </div>
+      <div class="circle">
+          <div class="dot"></div>
+          <div class="outline"></div>
+      </div>
+  </div>
+  <script src="Login.js"></script>
+ </body>
+ </html>
